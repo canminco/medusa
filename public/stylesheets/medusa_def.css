@@ -1,0 +1,204 @@
+body {
+	background:rgba(0, 0, 0, 0) -moz-linear-gradient(left top,  #F4C459 0%, #7D868F 100%) repeat scroll 0 0;
+
+}
+
+header {
+	background-image: url("../../img/2c782835f7761e5a3190e0ba9cccd00d.jpg");
+	background-repeat: null;
+}
+header  h2 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 200px 20px;
+    vertical-align: middle;
+    text-align: center; 
+    /*background-color: #A1B0BF;*/
+}
+
+aside ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+aside ul li {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+.sidebar {
+	background-color: #eee;
+	margin:0px;
+	padding:0px;
+}
+
+.sidebar  li  a.firstmenu {
+	display: block;
+	background-color:#A1B0BF;
+	background:rgba(0, 0, 0, 0) -moz-linear-gradient(center top ,  #A1B0BF 50%, #7D868F 100%) repeat scroll 0 0;
+	color: #000;
+	font-size: 16px;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align: center;
+	box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.4) , 0 0 1px  #A1B0BF ;
+}
+
+.sidebar li a.firstmenu:link,a.firstmenu:visited {
+	text-decoration:none;
+  	outline: none;
+  	outline-offset: 0px;
+}
+.sidebar li a.firstmenu:hover,a:active,a:focus {
+	text-decoration:none;
+  	outline: none;
+  	outline-offset: 0px;
+}
+
+.sidebar  li  a.secondmenu {
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+.sidebar li a.secondmenu:link {
+	text-decoration:none;
+}
+.sidebar li a.secondmenu:visited {
+	text-decoration:none;
+	color:#E42527;
+}
+.sidebar li a.secondmenu:hover {
+	text-decoration:none;
+	color:#EB532F;
+	background-color:#fff;
+	/*text-shadow:0 0 1px #e67e22;*/
+}
+.sidebar li a.secondmenu:active {
+	text-decoration:none;
+	color:#3FBC22;
+	background-color:#5AE6D1;
+}
+.sidebar li a.secondmenu:focus {
+	text-decoration:none;
+	color:#EB532F;
+	background-color:#fff;
+}
+
+.main-content {
+	background-color: green;
+}
+
+.home-template .main-header {
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 62px;
+    padding-top: 62px;
+}
+.main-navigation {
+    background: #ebebeb none repeat scroll 0 0;
+    border-bottom: 2px solid #e1e1e1; /*#e1e1e1*/
+    border-top: 1px solid #ebebeb; /*#ebebeb*/
+    margin-bottom: 5px;
+    text-align: left;
+}
+.main-navigation .menu {
+    margin: 0;
+    padding: 0;
+}
+.main-navigation .menu li {
+    display: inline-block;
+    list-style: outside none none;
+    position: relative;
+}
+.main-navigation .menu li.nav-current {
+    border-bottom: 2px solid #e67e22;
+    margin-bottom: -2px;
+}
+.main-navigation .menu li a {
+    color: #505050;
+    display: block;
+    line-height: 2.5em; /*导航栏高度*/
+    padding: 0 21px;
+}
+.main-navigation .menu li:hover > a {
+    color: #e67e22;
+    text-decoration: none;
+}
+.main-navigation .menu li ul {
+    background: #ffffff none repeat scroll 0 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 7px 0;
+    position: absolute;
+    text-align: left;
+    top: 120%;
+    transition: all 0.2s ease 0s;
+    visibility: hidden;
+    width: 200px;
+    z-index: 999;
+}
+.main-navigation .menu li ul li {
+    display: block;
+    margin: 0;
+}
+.main-navigation .menu li ul li a {
+    color: #505050;
+    line-height: 2.5em;
+}
+.main-navigation .menu li ul:hover > a {
+    color: #e67e22;
+}
+.main-navigation .menu li:hover ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+@media (max-width: 767px) {
+.main-navigation {
+    text-align: left;
+}
+.main-navigation .menu li {
+    display: block;
+}
+.main-navigation .menu li:hover > a {
+    color: #e67e22;
+    text-decoration: none;
+}
+.main-navigation .menu li ul {
+    margin: 0;
+    opacity: 1;
+    padding: 0 0 0 20px;
+    position: relative;
+    top: 0;
+    visibility: visible;
+    width: 100%;
+}
+}
+.navbar-header {
+    text-align: center;
+}
+.navbar-header i {
+    cursor: pointer;
+    font-size: 2em;
+    height: 56px;
+    line-height: 56px;
+}
+@media (min-width: 768px) {
+.nav-toggle-button {
+    display: none;
+}
+}
